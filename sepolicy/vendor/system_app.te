@@ -11,3 +11,5 @@ allow system_app sysfs_vibrator:file { read write };
 allow system_app sysfs_vibrator:file open;
 allow system_app sysfs_vibrator:file getattr;
 
+# Thermal
+allow system_app sysfs_thermal:file { rw_file_perms getattr };
