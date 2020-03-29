@@ -406,7 +406,15 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
+# Overlays - override vendor ones
+PRODUCT_PACKAGES += \
+    FrameworksResCommon \
+    FrameworksResTarget \
+    DevicesOverlay \
+    DevicesAndroidOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
