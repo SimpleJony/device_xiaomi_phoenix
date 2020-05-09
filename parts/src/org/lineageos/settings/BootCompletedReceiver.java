@@ -25,6 +25,7 @@ import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.doze.PocketService;
 import org.lineageos.settings.refreshrate.RefreshUtils;
+import org.lineageos.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -41,6 +42,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         
         // Pocket mode        
         PocketService.startService(context);
+        // Thermal Service
+        ThermalUtils.startService(context);
     }
-
 }
