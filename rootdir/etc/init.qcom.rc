@@ -1057,3 +1057,8 @@ service vendor.power /vendor/bin/hw/android.hardware.power-service-qti
     class hal
     user system
     group system input
+    
+on property:sys.boot_completed=1
+    # Restrict permissions to socket file
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
