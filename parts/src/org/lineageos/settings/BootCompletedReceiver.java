@@ -21,6 +21,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
+<<<<<<< HEAD
+=======
+import org.lineageos.settings.PowerSaveModeChangeReceiver;
+import org.lineageos.settings.dirac.DiracUtils;
+>>>>>>> 289bbdf4... phoenix: bring back dirac
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.doze.PocketService;
 import org.lineageos.settings.thermal.ThermalUtils;
@@ -30,6 +35,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(final Context context, Intent intent) {
+        // Dirac
+        DiracUtils.initialize(context);
         // Doze
         DozeUtils.checkDozeService(context);
         DozeUtils.enableDoze(context, DozeUtils.isDozeEnabled(context));
