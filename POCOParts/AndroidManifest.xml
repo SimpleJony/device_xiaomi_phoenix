@@ -47,7 +47,7 @@
 
         <activity
             android:name=".DeviceSettingsActivity"
-            android:exported="false"
+            android:exported="true"
             android:icon="@drawable/ic_poco"
             android:label="@string/advanced_settings"
             android:launchMode="singleTask">
@@ -72,7 +72,7 @@
         </activity>
         <activity
             android:name=".kcal.KCalSettingsActivity"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/CustomOptionsTheme"
             android:label="@string/advanced_settings_kcal">
             <intent-filter>
