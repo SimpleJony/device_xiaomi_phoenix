@@ -241,15 +241,6 @@ service ppd /vendor/bin/mm-pp-dpps
     socket pps stream 0660 system system
     disabled
 
-on property:init.svc.hwcomposer-2-1=stopped
-    stop ppd
-
-on property:init.svc.hwcomposer-2-1=running
-    start ppd
-
-on property:init.svc.hwcomposer-2-1=restarting
-    stop ppd
-
 service panel-info-sh /system/vendor/bin/sh /vendor/etc/init.panel_info.sh
     class late_start
     user root

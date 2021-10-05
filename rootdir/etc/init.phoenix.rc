@@ -44,6 +44,12 @@ on property:vendor.post_boot.parsed=1
 on property:ro.boot.product.hardware.sku=phoenix
     enable vendor.nfc_hal_service
 
+on property:init.svc.vendor.hwcomposer-2-4=stopped
+    stop ppd
+
+on property:init.svc.vendor.hwcomposer-2-4=running
+    start ppd
+
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
     class hal
