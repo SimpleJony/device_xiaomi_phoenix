@@ -241,6 +241,9 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # RCS
 persist.rcs.supported=1
 
+# System
+persist.sys.binary_xml=false
+
 # Data modules
 persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
