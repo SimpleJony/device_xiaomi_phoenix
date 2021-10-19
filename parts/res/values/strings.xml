@@ -23,6 +23,9 @@
     <string name="refresh_rate_tile_title">Refresh Rate</string>
     <string name="refresh_rate_tile_disabled">Battery saver enabled</string>
 
+    <!-- QS tile title -->
+    <string name="dirac_qs_tile_title">Dirac Sound Enhancer</string>
+
     <!-- Dirac settings -->
     <string name="dirac_enable">Enable dirac</string>
     <string name="dirac_title">Dirac sound enhancer</string>
