@@ -60,11 +60,13 @@ constexpr const char *DEVICES[] = {
 };
 
 constexpr const char *BUILD_DESCRIPTION[] = {
-    "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys",
+    "raven-user 12 SD1A.210817.019.C2 7738411 release-keys",
+    "raven-user 12 SD1A.210817.019.C2 7738411 release-keys",
 };
 
 constexpr const char *BUILD_FINGERPRINT[] = {
-    "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
+    "google/raven/raven:12/SD1A.210817.019.C2/7738411:user/release-keys",
+    "google/raven/raven:12/SD1A.210817.019.C2/7738411:user/release-keys",
 };
 
 constexpr const char *CLIENT_ID[] = {
