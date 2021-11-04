@@ -11,5 +11,3 @@ allow system_app sysfs_vibrator:file { read write };
 allow system_app sysfs_vibrator:file open;
 allow system_app sysfs_vibrator:file getattr;
 
-get_prop(system_app, vendor_default_prop)
-
