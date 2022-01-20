@@ -23,6 +23,7 @@ import android.content.IntentFilter;
 
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
+import org.lineageos.settings.refreshrate.RefreshUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -34,6 +35,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         // Doze
         DozeUtils.checkDozeService(context);
         DozeUtils.enableDoze(context, DozeUtils.isDozeEnabled(context));
+
+        // Refresh Rate
+        RefreshUtils.startService(context);
     }
 
 }
