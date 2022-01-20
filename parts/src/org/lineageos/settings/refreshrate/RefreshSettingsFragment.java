@@ -203,8 +203,14 @@ public class RefreshSettingsFragment extends PreferenceFragment
 
     private int getStateDrawable(int state) {
         switch (state) {
+            case RefreshUtils.STATE_LOW:
+                return R.drawable.ic_refresh_30;
+            case RefreshUtils.STATE_MODERATE:
+                return R.drawable.ic_refresh_50;
             case RefreshUtils.STATE_STANDARD:
                 return R.drawable.ic_refresh_60;
+            case RefreshUtils.STATE_HIGH:
+                return R.drawable.ic_refresh_90;
             case RefreshUtils.STATE_EXTREME:
                 return R.drawable.ic_refresh_120;
             case RefreshUtils.STATE_DEFAULT:
@@ -238,7 +244,11 @@ public class RefreshSettingsFragment extends PreferenceFragment
         private final int textColor;
         private final int[] items = {
                 R.string.refresh_default,
-                R.string.refresh_standard
+                R.string.refresh_low,
+                R.string.refresh_moderate,
+                R.string.refresh_standard,
+                R.string.refresh_high,
+                R.string.refresh_extreme
         };
 
         private ModeAdapter(Context context) {
@@ -366,8 +376,17 @@ public class RefreshSettingsFragment extends PreferenceFragment
                 case RefreshUtils.STATE_DEFAULT:
                     mRefreshUtils.writePackage(entry.info.packageName, RefreshUtils.STATE_DEFAULT);
                     break;
+                case RefreshUtils.STATE_LOW:
+                    mRefreshUtils.writePackage(entry.info.packageName, RefreshUtils.STATE_LOW);
+                    break;
+                case RefreshUtils.STATE_MODERATE:
+                    mRefreshUtils.writePackage(entry.info.packageName, RefreshUtils.STATE_MODERATE);
+                    break;
                 case RefreshUtils.STATE_STANDARD:
                     mRefreshUtils.writePackage(entry.info.packageName, RefreshUtils.STATE_STANDARD);
+                    break;
+                case RefreshUtils.STATE_HIGH:
+                    mRefreshUtils.writePackage(entry.info.packageName, RefreshUtils.STATE_HIGH);
                     break;
                 case RefreshUtils.STATE_EXTREME:
                     mRefreshUtils.writePackage(entry.info.packageName, RefreshUtils.STATE_EXTREME);
