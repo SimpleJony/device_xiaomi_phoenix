@@ -21,6 +21,9 @@
     <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac Sound Enhancer</string>
 
+    <!-- Ambient settings -->
+    <string name="ambient_enable">Use ambient display</string>
+
     <!-- Dirac settings -->
     <string name="dirac_enable">Enable dirac</string>
     <string name="dirac_title">Dirac sound enhancer</string>
