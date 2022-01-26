@@ -7,3 +7,6 @@ type kcal_dev, sysfs_type, fs_type;
 type vibrator_dev, sysfs_type, fs_type;
 
 type proc_sched_boost, fs_type, proc_type;
+
+# Battery Saver
+type sysfs_battery_saver, fs_type, sysfs_type;
