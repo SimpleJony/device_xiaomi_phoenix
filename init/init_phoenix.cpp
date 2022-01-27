@@ -60,13 +60,13 @@ constexpr const char *DEVICES[] = {
 };
 
 constexpr const char *BUILD_DESCRIPTION[] = {
-    "raven-user 12 SQ1D.211205.016.A1 7957957 release-keys",
-    "raven-user 12 SQ1D.211205.016.A1 7957957 release-keys",
+    "raven-user 12 SQ1D.220105.007 8030436 release-keys",
+    "raven-user 12 SQ1D.220105.007 8030436 release-keys",
 };
 
 constexpr const char *BUILD_FINGERPRINT[] = {
-    "google/raven/raven:12/SQ1D.211205.016.A1/7957957:user/release-keys",
-    "google/raven/raven:12/SQ1D.211205.016.A1/7957957:user/release-keys",
+    "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys",
+    "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys",
 };
 
 constexpr const char *CLIENT_ID[] = {
