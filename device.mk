@@ -371,8 +371,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     SettingsProvidorOverlayPhoenix \
     SystemUIOverlayPhoenix \
     TelephonyOverlayPhoenix \
-    TetheringConfigOverlay \
-    WifiOverlay
+    TetheringConfigOverlayPhoenix \
+    WifiOverlayPhoenix
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
