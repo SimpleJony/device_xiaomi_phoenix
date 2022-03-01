@@ -25,6 +25,7 @@ import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.utils.FileUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
+import org.lineageos.settings.refreshrate.RefreshUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -36,6 +37,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         // Refresh rate
         RefreshUtils.startService(context);
         ThermalUtils.startService(context);
+        RefreshUtils.startService(context);        
     }
 
 }
