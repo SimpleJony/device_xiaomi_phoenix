@@ -392,7 +392,9 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \

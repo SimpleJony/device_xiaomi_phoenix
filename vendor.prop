@@ -204,10 +204,13 @@ ro.hardware.keystore_desede=true
 
 # Media
 audio.offload.video=true
-debug.stagefright.ccodec=1
-debug.stagefright.omx_default_rank.sw-audio=1
-debug.stagefright.omx_default_rank=0
-vendor.media.target.version=2
+debug.media.codec2=2
+debug.stagefright.ccodec=4
+debug.stagefright.omx_default_rank=512
+debug.stagefright.c2inputsurface=-1
+debug.media.transcoding.codec_max_operating_rate_720P=480
+debug.media.transcoding.codec_max_operating_rate_1080P=240
+debug.media.transcoding.codec_max_operating_rate_4k=120
 
 # Netmgr
 persist.vendor.data.iwlan.enable=true
