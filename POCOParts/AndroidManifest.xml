@@ -48,7 +48,6 @@
         <activity
             android:name=".DeviceSettingsActivity"
             android:exported="true"
-            android:icon="@drawable/ic_poco"
             android:label="@string/advanced_settings"
             android:launchMode="singleTask">
             <intent-filter>
@@ -57,6 +56,9 @@
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
 
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_poco" />
             <meta-data
                 android:name="com.android.settings.dismiss"
                 android:value="9,13,30" />
