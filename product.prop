@@ -62,9 +62,6 @@ ro.media.recorder-max-base-layer-fps=60
 # Netflix
 ro.netflix.bsp_rev=Q6150-17263-1
 
-# Perfetto
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
-
 # Radio
 DEVICE_PROVISIONED=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true
