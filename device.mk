@@ -65,7 +65,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
     android.hardware.audio@6.0 \
     android.hardware.audio@6.0-impl \
-    audio.a2dp.default \
     audio.primary.sm6150:32 \
     audio.r_submix.default \
     audio.usb.default \
