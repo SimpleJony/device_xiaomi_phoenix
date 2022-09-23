@@ -656,4 +656,7 @@
         <item>855</item> <!--item>sensorLocationY</item-->
         <item>218</item> <!--item>sensorRadius</item-->
     </array>
+
+     <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
+     <integer name="config_keyguardMaxRefreshRate">60</integer>
 </resources>
