@@ -82,11 +82,6 @@ on late-fs
     exec_start wait_for_keymaster
     mount_all --late /vendor/etc/fstab.qcom
 
-service sec_nvm /vendor/bin/sec_nvm
-    class core
-    user system
-    group system
-
 on post-fs-data
     mkdir /data/tombstones 0771 system system
     mkdir /tombstones/modem 0771 system system
@@ -206,11 +201,6 @@ on charger
     wait /dev/block/platform/soc/1da4000.ufshc/by-name/persist
     start leds-sh
 
-service spdaemon /vendor/bin/spdaemon
-    class core
-    user system
-    group system
-
 service thermal-engine /system/vendor/bin/thermal-engine
    class main
    user root
@@ -219,15 +209,6 @@ service thermal-engine /system/vendor/bin/thermal-engine
    socket thermal-recv-passive-client stream 0666 system system
    socket thermal-send-rule stream 0660 system system
    group root
-
-on property:vold.decrypt=trigger_restart_framework
-   start vendor.cnss_diag
-
-service vendor.cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
-   class main
-   user system
-   group system wifi inet sdcard_rw media_rw diag
-   oneshot
 
 service leds-sh /system/vendor/bin/sh /vendor/etc/init.leds.sh
    class core
@@ -264,11 +245,6 @@ service hbtp /system/vendor/bin/hbtp_daemon
      group system
      disabled
 
-service energy-awareness /system/vendor/bin/energy-awareness
-    class main
-    user system
-    group system
-    oneshot
 service dcvs-sh /vendor/bin/init.qti.dcvs.sh
     class late_start
     user root
@@ -282,16 +258,6 @@ on property:vendor.dcvs.prop=1
 on property:vendor.audio.cit.spkcal.copy=true
     copy /data/vendor/cit/tfa9894_chk.txt /mnt/vendor/persist/audio/tfa9894_chk.txt
     chmod 666 /mnt/vendor/persist/audio/tfa9894_chk.txt
-service audioshell_service /vendor/bin/audioshell_service
-    oneshot
-    disabled
-
-on property:ro.vendor.miui.region=*
-    start audioshell_service
-service remosaic_daemon /system/vendor/bin/remosaic_daemon
-   class late_start
-   user camera
-   group camera
 
 on post-fs-data
     chmod 0666 /dev/migt

@@ -87,7 +87,6 @@ on early-boot
     write /sys/devices/virtual/npu/msm_npu/boot 1
     write /sys/devices/virtual/cvp/cvp/boot 1
     exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qcom.early_boot.sh
-    exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qti.can.sh
     setprop ro.sf.lcd_density ${vendor.display.lcd_density}
 
     chown system system /mnt/vendor/persist/data/pfm/licenses
@@ -998,9 +997,3 @@ service nv_mac /vendor/bin/nv_mac
     user system
     group system inet net_admin wifi net_raw
     oneshot
-
-service vendor.power /vendor/bin/hw/android.hardware.power-service-qti
-    override
-    class hal
-    user system
-    group system input
