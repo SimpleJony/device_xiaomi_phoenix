@@ -257,3 +257,7 @@ persist.vendor.ims.disableQXDMLogs=1
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
+
+# Zygote
+zygote.critical_window.minute=10
+
