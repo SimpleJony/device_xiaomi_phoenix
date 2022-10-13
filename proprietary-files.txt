@@ -823,6 +823,7 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libsmwrapper.so
 
 # Media (VPP)
+vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc
 vendor/lib64/libOmxVpp.so
