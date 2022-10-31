@@ -36,9 +36,9 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
 # Camera
-persist.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+persist.camera.privapp.list=org.lineageos.aperture,com.android.camera
+persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera
+vendor.camera.aux.packagelist=org.lineageos.aperture,com.android.camera
 
 # Charger
 ro.charger.enable_suspend=true
