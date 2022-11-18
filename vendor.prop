@@ -131,6 +131,9 @@ dalvik.vm.image-dex2oat-threads=8
 dalvik.vm.dex2oat-filter=speed
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat64.enabled=true
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt?=speed-profile
+pm.dexopt.install=speed-profile
 
 # Display
 ro.surface_flinger.set_display_power_timer_ms=1000
