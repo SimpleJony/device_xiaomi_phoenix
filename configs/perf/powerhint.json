@@ -55,7 +55,7 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/min_pwrlevel",
       "Values": [
         "0",
-        "6"
+        "7"
       ],
       "ResetOnInit": true
     },
