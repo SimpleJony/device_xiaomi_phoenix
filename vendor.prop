@@ -108,6 +108,12 @@ ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=cherokee
 
+# Blurs
+ro.surface_flinger.supports_background_blur=1
+
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=1
+
 # Camera
 camera.disable_zsl_mode=1
 
