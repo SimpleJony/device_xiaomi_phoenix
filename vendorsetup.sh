@@ -4,5 +4,3 @@ echo "Cloning vendor tree..."
 git clone https://github.com/SharmagRit/android_vendor_xiaomi_phoenix -b 13 --depth=1 vendor/xiaomi/phoenix
 echo "Cloning hardware/xiaomi..."
 git clone https://github.com/ArrowOS-Devices/android_hardware_xiaomi -b arrow-13.0 hardware/xiaomi
-echo "Cloning ifaa service..."
-git clone https://github.com/ArrowOS-Devices/android_device_xiaomi_extras device/xiaomi/extras
