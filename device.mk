@@ -598,7 +598,8 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/xiaomi
 
 # Thermal
 PRODUCT_COPY_FILES += \
