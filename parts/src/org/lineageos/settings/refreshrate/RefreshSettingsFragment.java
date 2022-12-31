@@ -238,8 +238,7 @@ public class RefreshSettingsFragment extends PreferenceFragment
         private final int textColor;
         private final int[] items = {
                 R.string.refresh_default,
-                R.string.refresh_standard,
-                R.string.refresh_extreme
+                R.string.refresh_standard
         };
 
         private ModeAdapter(Context context) {
