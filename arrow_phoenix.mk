@@ -22,4 +22,9 @@ DEVICE_MAINTAINER := SimpleJony
 TARGET_INCLUDE_PIXEL_CHARGER := true
 ARROW_GAPPS := true
 
+# Fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRIVATE_BUILD_DESC="cheetah-user 13 TP1A.221205.011 9244662 release-keys" \
+	BUILD_FINGERPRINT="google/cheetah/cheetah:13/TQ1A.221205.011/9244662:user/release-keys"
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
