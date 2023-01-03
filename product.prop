@@ -108,3 +108,7 @@ ro.ril.disable.power.collapse=0
 power.saving.mode=1
 pm.sleep_mode=1
 
+# Usb debugging
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.debuggable=1
