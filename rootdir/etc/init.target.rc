@@ -52,6 +52,12 @@ on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
+    # Thermal Profiles permissions
+    chmod 0664 /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    chmod 0666 /sys/class/thermal/thermal_message/temp_state
+    chown system system /sys/class/thermal/thermal_message/temp_stat
+
 on early-fs
     start vold
 
@@ -135,7 +141,7 @@ on boot
     write /dev/cpuset/system-background/cpus 2-5
     write /dev/cpuset/restricted/cpus 2-5
 
-    chown system system /sys/class/thermal/thermal_message/sconfig
+
 #disable qcom qc3p5
     setprop persist.vendor.cp.support_qc3p5 0
 
