@@ -36,7 +36,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         // Refresh rate
         RefreshUtils.startService(context);
         ThermalUtils.startService(context);
-        RefreshUtils.startService(context);
         // Pocket mode        
         PocketService.startService(context);
     }
