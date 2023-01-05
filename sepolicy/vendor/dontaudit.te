@@ -1,2 +1,5 @@
 # Thermal
 dontaudit vendor_thermal-engine self:capability dac_override;
+
+#isolated_app
+dontaudit isolated_app content_capture_service:service_manager find;
