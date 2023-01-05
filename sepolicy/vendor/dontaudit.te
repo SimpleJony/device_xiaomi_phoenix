@@ -1,0 +1,2 @@
+# Thermal
+dontaudit vendor_thermal-engine self:capability dac_override;
