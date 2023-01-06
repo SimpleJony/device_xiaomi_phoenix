@@ -1,1 +1,2 @@
 allow untrusted_app zygote:unix_stream_socket { getopt };
+dontaudit untrusted_app odsign_prop:file read;
