@@ -47,3 +47,7 @@ genfscon proc /sys/kernel/sched_boost                                           
 genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_encoder_mask         u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_state                u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_timeout_ms           u:object_r:vendor_sysfs_graphics:s0
+
+# Touchpanel
+genfscon sysfs /sys/class/touch/touch_dev/partial_diff_data                     u:object_r:sysfs_touchpanel:s0
+genfscon sysfs /sys/class/touch/touch_dev/palm_sensor                           u:object_r:sysfs_touchpanel:s0

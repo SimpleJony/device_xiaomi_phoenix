@@ -7,3 +7,6 @@ get_prop(hal_sensors_default, persist_sensors_prop)
 get_prop(hal_sensors_default, vendor_adsprpc_prop)
 
 allow hal_sensors_default ultrasound_device:chr_file rw_file_perms;
+
+# Palm sensor
+allow hal_sensors_default sysfs:file rw_file_perms;
