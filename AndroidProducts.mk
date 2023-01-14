@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_phoenix.mk
+    $(LOCAL_DIR)/arrow_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_phoenix-user \
-    derp_phoenix-userdebug \
-    derp_phoenix-eng
+    arrow_phoenix-user \
+    arrow_phoenix-userdebug \
+    arrow_phoenix-eng
