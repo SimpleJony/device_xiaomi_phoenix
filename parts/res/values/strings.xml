@@ -32,13 +32,6 @@
     <string name="lcd_cabc_title">CABC Mode</string>
     <string name="lcd_features_info">High Brightness Mode (HBM) increases the maximum brightness of the display to improve visibility under sunlight. Increases power consumption.\n\nCABC (Content Adaptive Backlight Control) adjusts display and backlight brightness based on currently shown content, to reduce power consumption without degradation.</string>
     
-    <!-- Refresh Rate Settings -->
-    <string name="refresh_rate_tile_title">Refresh Rate</string>
-    <string name="refresh_title">App Refresh Rate</string>
-    <string name="refresh_summary">Adjust per-app maximum refresh rate</string>
-    <string name="refresh_default">Default</string>
-    <string name="refresh_standard">Standard (60Hz)</string>
-    <string name="refresh_high">High (90Hz)</string>
 
     <!-- Thermal Profiles -->
     <string name="thermal_title">Thermal Profiles</string>
