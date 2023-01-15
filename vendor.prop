@@ -128,6 +128,9 @@ dalvik.vm.dex2oat-filter=speed
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat64.enabled=true
 
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=1
+
 # Display
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_idle_timer_ms=80
