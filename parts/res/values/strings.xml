@@ -50,6 +50,7 @@
     <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.</string>
     
     <!-- Per app maximum refresh rate -->
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
     <string name="refresh_title">App Refresh Rate</string>
     <string name="refresh_summary">Adjust per-app maximum refresh rate</string>
     <string name="refresh_default">Default</string>
