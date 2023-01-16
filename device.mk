@@ -660,3 +660,7 @@ PRODUCT_PACKAGES += \
     libqdMetaData.vendor \
     libwfdaac_vendor \
     vendor.display.config@2.0
+
+# Recovery
+PRODUCT_PACKAGES += \
+    init.recovery.qcom.rc
