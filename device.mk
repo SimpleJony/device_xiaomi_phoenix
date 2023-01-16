@@ -348,12 +348,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/media/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml
 
-# Xiaomi Ringtone
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/media/Mi.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Mi.ogg \
-    $(LOCAL_PATH)/media/MIX.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MIX.ogg \
-    $(LOCAL_PATH)/media/MiRemix.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiRemix.ogg
-
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
@@ -365,6 +359,12 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_tv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_tv.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
+
+# Xiaomi Ringtone
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/Mi.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Mi.ogg \
+    $(LOCAL_PATH)/media/MIX.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MIX.ogg \
+    $(LOCAL_PATH)/media/MiRemix.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiRemix.ogg
 
 # Media
 PRODUCT_PACKAGES += \
