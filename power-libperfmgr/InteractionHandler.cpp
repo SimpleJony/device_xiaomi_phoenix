@@ -17,20 +17,20 @@
 #define ATRACE_TAG (ATRACE_TAG_POWER | ATRACE_TAG_HAL)
 #define LOG_TAG "powerhal-libperfmgr"
 
-#include "InteractionHandler.h"
+#include <array>
+#include <memory>
 
-#include <android-base/properties.h>
 #include <fcntl.h>
-#include <perfmgr/HintManager.h>
 #include <poll.h>
 #include <sys/eventfd.h>
 #include <time.h>
 #include <unistd.h>
+
+#include <android-base/properties.h>
 #include <utils/Log.h>
 #include <utils/Trace.h>
 
-#include <array>
-#include <memory>
+#include "InteractionHandler.h"
 
 #define MAX_LENGTH 64
 
@@ -79,10 +79,10 @@ static int FbIdleOpen(void) {
 
 }  // namespace
 
-using ::android::perfmgr::HintManager;
-
-InteractionHandler::InteractionHandler()
-    : mState(INTERACTION_STATE_UNINITIALIZED), mDurationMs(0) {}
+InteractionHandler::InteractionHandler(std::shared_ptr<HintManager> const &hint_manager)
+    : mState(INTERACTION_STATE_UNINITIALIZED),
+      mDurationMs(0),
+      mHintManager(hint_manager) {}
 
 InteractionHandler::~InteractionHandler() {
     Exit();
@@ -130,16 +130,18 @@ void InteractionHandler::Exit() {
 
 void InteractionHandler::PerfLock() {
     ALOGV("%s: acquiring perf lock", __func__);
-    if (!HintManager::GetInstance()->DoHint("INTERACTION")) {
+    if (!mHintManager->DoHint("INTERACTION")) {
         ALOGE("%s: do hint INTERACTION failed", __func__);
     }
+    ATRACE_INT("interaction_lock", 1);
 }
 
 void InteractionHandler::PerfRel() {
     ALOGV("%s: releasing perf lock", __func__);
-    if (!HintManager::GetInstance()->EndHint("INTERACTION")) {
+    if (!mHintManager->EndHint("INTERACTION")) {
         ALOGE("%s: end hint INTERACTION failed", __func__);
     }
+    ATRACE_INT("interaction_lock", 0);
 }
 
 void InteractionHandler::Acquire(int32_t duration) {
@@ -160,7 +162,7 @@ void InteractionHandler::Acquire(int32_t duration) {
     // 1) override property is set OR
     // 2) InteractionHandler not initialized
     if (!kDisplayIdleSupport || mState == INTERACTION_STATE_UNINITIALIZED) {
-        HintManager::GetInstance()->DoHint("INTERACTION", std::chrono::milliseconds(finalDuration));
+        mHintManager->DoHint("INTERACTION", std::chrono::milliseconds(finalDuration));
         return;
     }
 
