@@ -520,7 +520,7 @@ vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|543310393fa5170c481cd94f55
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|0901965335f08e879df4bc5961d8533ed0d84108
 
 # MIUI Camera - Patched
-lib64/libcameraservice.so|69639b4d2eaa00e27388221299322803a4bf3e5b
+lib64/libcameraservice.so|74998e8bb9c883783c179f9ddf53fd3cb5145588
 
 # MIUI Camera
 -priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2|3dd397c14c9b6f86a3c69465e1bdcef8ca2af331
