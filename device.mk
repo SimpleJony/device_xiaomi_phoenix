@@ -384,7 +384,7 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor
 
 # MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicam/config.mk)
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
