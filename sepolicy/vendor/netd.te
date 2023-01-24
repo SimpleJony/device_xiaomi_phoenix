@@ -1,2 +1,0 @@
-allow netd miui_camera:fd { use };
-allow netd miui_camera:tcp_socket { read write getopt setopt };
