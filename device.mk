@@ -534,7 +534,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     fstab.qcom \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.phoenix.perf.rc
 
 # RCS
 PRODUCT_PACKAGES += \
