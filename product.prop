@@ -10,7 +10,6 @@ persist.vendor.btstack.connect.peer_earbud=true
 
 # Camera
 persist.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 
 # Charger
 ro.charger.enable_suspend=true
@@ -113,8 +112,8 @@ ro.adb.secure=0
 ro.debuggable=1
 
 # MIUI Camera
-ro.product.mod_device=thyme_global
-persist.vendor.camera.privapp.list=com.android.camera
+ro.product.mod_device=phoenix
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 ro.com.google.lens.oem_camera_package=com.android.camera
 ro.miui.notch=1
 ro.hardware.camera=xiaomi
