@@ -9,9 +9,9 @@ persist.vendor.btsatck.absvolfeature=true
 persist.vendor.btstack.connect.peer_earbud=true
 
 # Camera
-persist.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+persist.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture
 
 # Charger
 ro.charger.enable_suspend=true
