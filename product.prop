@@ -110,23 +110,3 @@ pm.sleep_mode=1
 persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.debuggable=1
-
-# Miui Camera
-persist.vendor.camera.enableAdvanceFeatures=0x3E7
-persist.vendor.camera.multicam=TRUE
-persist.vendor.camera.multicam.fpsmatch=TRUE
-persist.vendor.camera.multicam.framesync=1
-persist.vendor.camera.multicam.hwsync=TRUE
-persist.vendor.camera.privapp.list=com.android.camera
-persist.vendor.camera.picturesize.limit.enable=false
-persist.sys.miui.sdk.dbg
-ro.miui.notch=1
-ro.product.device=phoenixin
-ro.miui.ui.version.code=13
-ro.miui.ui.version.name=V130
-ro.miui.region=CN
-ro.miui.build.region=cn
-ro.fota.oem=Xiaomi
-ro.boot.camera.config=_pro
-ro.com.google.lens.oem_camera_package=com.android.camera
-ro.control_privapp_permissions=log
