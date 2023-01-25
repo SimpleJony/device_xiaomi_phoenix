@@ -384,23 +384,8 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor
 
 # MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+#$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
-<<<<<<< HEAD
-# Miui Camera Config
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
-    $(LOCAL_PATH)/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml \
-    $(LOCAL_PATH)/configs/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
-    $(LOCAL_PATH)/configs/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.front.xml \
-    $(LOCAL_PATH)/configs/permissions/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.full.xml \
-    $(LOCAL_PATH)/configs/permissions/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.raw.xml \
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sysconfig/miuicamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-whitelist.xml
-
-=======
->>>>>>> parent of ea6a8b6c... [TEST]phoenix: Miui Camera: Adapt for phoenix
 # NeuralNetworks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3 \
