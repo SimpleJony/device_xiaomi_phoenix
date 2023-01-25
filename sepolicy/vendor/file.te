@@ -2,8 +2,5 @@ type ultrasound_device, dev_type;
 
 type proc_sched_boost, fs_type, proc_type;
 
-# Battery Saver
-type sysfs_battery_saver, fs_type, sysfs_type;
-
 # Data files
 type per_boot_file, file_type, data_file_type, core_data_file_type;

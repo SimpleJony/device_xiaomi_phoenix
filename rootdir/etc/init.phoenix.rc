@@ -26,10 +26,6 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 #
-on init
-    chown system system /sys/module/battery_saver/parameters/enabled
-    chmod 0664 /sys/module/battery_saver/parameters/enabled
-
 on post-fs-data
     mkdir /data/vendor/nfc 0770 nfc nfc
 
