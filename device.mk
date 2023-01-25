@@ -387,7 +387,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.front.xml \
     $(LOCAL_PATH)/configs/permissions/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.full.xml \
     $(LOCAL_PATH)/configs/permissions/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.raw.xml \
-    $(LOCAL_PATH)/configs/device_features/phoenixin.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/phoenixin.xml
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sysconfig/miuicamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-whitelist.xml
