@@ -507,7 +507,7 @@ vendor/lib64/libvidhance.so|822252821acd4fc308d080e4d524ef37defd7ba1
 vendor/firmware/CAMERA_ICP.elf|83145cf3fff905bc67828a65b12ea5942ba8a638
 
 # Camera Service - from PHOENIX 13.0.2.1.47.DEV
-system_ext/lib/vendor.qti.hardware.camera.device@3.5.so|2f919e1e76d0ae149c9bda69431b57826896c559
+system_ext/lib64/vendor.qti.hardware.camera.device@3.5.so|2f919e1e76d0ae149c9bda69431b57826896c559
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|bce9ca5f01d5298e51fb061096dccbeb86bcebe3
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so|499e8da4a4fcf4e13a33c7bb0f5fbf4559babc12
 vendor/lib/android.hardware.camera.provider@2.4-external.so|f462728f7686cbdeaf465bd43155d227eb22b980
