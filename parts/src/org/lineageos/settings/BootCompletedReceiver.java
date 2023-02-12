@@ -21,11 +21,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
-<<<<<<< HEAD
-=======
-import org.lineageos.settings.PowerSaveModeChangeReceiver;
 import org.lineageos.settings.dirac.DiracUtils;
->>>>>>> 289bbdf4... phoenix: bring back dirac
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.doze.PocketService;
 import org.lineageos.settings.thermal.ThermalUtils;
