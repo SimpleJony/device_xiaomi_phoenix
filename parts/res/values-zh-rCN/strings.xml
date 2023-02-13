@@ -12,7 +12,17 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Redmi K30 / POCO X2 specific settings -->
+    <string name="device_specific_settings_title">显示切口配置</string>
+    <string name="device_specific_settings_summary">猪鼻孔/药丸选项</string>
+    <string name="device_cutout_title">切口选项</string>
+    <string name="device_pill_style_notch">使用药丸样式切口</string>
+
+    <!-- Ambient settings -->
+    <string name="ambient_enable">使用环境显示</string>
+
     <!-- Dirac settings -->
+    <string name="dirac_enable">使用米音提升音质</string>
     <string name="dirac_title">使用米音提升音质</string>
     <string name="dirac_summary">米音</string>
     <string name="dirac_headset_title">耳机类型设定</string>
