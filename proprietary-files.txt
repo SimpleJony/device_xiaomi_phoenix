@@ -508,19 +508,16 @@ vendor/firmware/CAMERA_ICP.elf|83145cf3fff905bc67828a65b12ea5942ba8a638
 
 # Camera Service - from PHOENIX 13.0.2.1.47.DEV
 system_ext/lib64/vendor.qti.hardware.camera.device@3.5.so|2f919e1e76d0ae149c9bda69431b57826896c559
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|bce9ca5f01d5298e51fb061096dccbeb86bcebe3
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so|499e8da4a4fcf4e13a33c7bb0f5fbf4559babc12
 vendor/lib/android.hardware.camera.provider@2.4-external.so|f462728f7686cbdeaf465bd43155d227eb22b980
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so|1f7f3d82623c638a3144ddffa209d53f86768b6c
 vendor/lib/vendor.qti.hardware.camera.device@2.0.so|80377e24f7305f5504571067ce1b6c6aee02754a
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so|9caa58b6d8df4dfba31bc101b30079e01a9dfb88
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|b473f182647190e565276982c06634932c6d5011
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|b89cd53233b5be22da3ed8722cce8544c948d30b
 vendor/lib64/android.hardware.camera.provider@2.4-external.so|4f69ea6a9e807d3c3564a64c1764e28d9c40bff9
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|67cfc6d7e4ac53908ffb09d13184bb79ff34894f
 vendor/lib64/vendor.qti.hardware.camera.device@2.0.so|ff5814bf182cc693c17183e98057a30a96e4cb33
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|645e27e99258f762048e42d66dc9d81915766920
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|c7b14b561b132193ae00008a4d275700e43d0fc9
 
 
 # Charger

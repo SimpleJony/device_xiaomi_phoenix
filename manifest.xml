@@ -79,12 +79,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.camera.provider</name>
-        <transport arch="32+64">passthrough</transport>
-        <fqname>@2.4::ICameraProvider/legacy/0</fqname>
-        <fqname>@2.6::ICameraProvider/legacy/0</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.ir</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
