@@ -28,4 +28,11 @@
     <string name="thermal_dialer">拨号器</string>
     <string name="thermal_gaming">游戏</string>
     <string name="thermal_streaming">流媒体</string>
+
+    <!-- Redmi K30 / POCO X2 specific settings -->
+    <string name="device_specific_settings_title">显示切口配置</string>
+    <string name="device_specific_settings_summary">猪鼻孔/药丸选项</string>
+    <string name="device_cutout_title">切口选项</string>
+    <string name="device_pill_style_notch">使用药丸样式切口</string>
+
 </resources>
