@@ -125,7 +125,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     vendor.qti.hardware.camera.device@1.0.vendor \
     android.hidl.memory.block@1.0.vendor \
-    libstdc++.vendor
+    libstdc++.vendor \
+    libcamera2ndk_vendor \
+    vendor.qti.hardware.camera.postproc@1.0.vendor
 
 # Crypto
 PRODUCT_PACKAGES += \
