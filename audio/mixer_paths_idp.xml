@@ -591,11 +591,13 @@
     </path>
 
     <path name="ultrasound-proximity-output headphones">
-        <ctl name="RX_MACRO RX5 MUX" value="AIF2_PB" />
+        <!-- ctl name="RX_MACRO RX5 MUX" value="AIF2_PB" /-->
+        <ctl name="Ultrasound Rx Port" value="Off"/>
     </path>
 
     <path name="ultrasound-proximity-output headset">
-        <ctl name="RX_MACRO RX5 MUX" value="AIF2_PB" />
+        <!-- ctl name="RX_MACRO RX5 MUX" value="AIF2_PB" /-->
+        <ctl name="Ultrasound Rx Port" value="Off"/>
     </path>
 
     <path name="ultrasound-proximity-output speaker">
