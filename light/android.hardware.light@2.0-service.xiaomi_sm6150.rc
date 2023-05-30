@@ -1,13 +1,20 @@
 on boot
-    chown system system /sys/class/leds/left/brightness
-    chown system system /sys/class/leds/left/breath
-    chown system system /sys/class/leds/white/brightness
-    chown system system /sys/class/leds/white/breath
+    # Backlight
+    chown system system /sys/class/backlight/panel0-backlight/brightness
+    chown system system /sys/class/backlight/panel0-backlight/max_brightness
+    chmod 0644 /sys/class/backlight/panel0-backlight/brightness
+    chmod 0644 /sys/class/backlight/panel0-backlight/max_brightness
 
-    chmod 0644 /sys/class/leds/left/brightness
-    chmod 0644 /sys/class/leds/left/breath
-    chmod 0644 /sys/class/leds/white/brightness
-    chmod 0644 /sys/class/leds/white/breath
+    # Real notification light
+    chown system system /sys/class/leds/white/brightness
+
+    chown system system /sys/class/leds/white/breath
+    chown system system /sys/class/leds/white/delay_off
+    chown system system /sys/class/leds/white/delay_on
+
+    chmod 660 /sys/class/leds/white/breath
+    chmod 660 /sys/class/leds/white/delay_off
+    chmod 660 /sys/class/leds/white/delay_on
 
 service vendor.light-hal-2-0 /vendor/bin/hw/android.hardware.light@2.0-service.xiaomi_sm6150
     interface android.hardware.light@2.0::ILight default
