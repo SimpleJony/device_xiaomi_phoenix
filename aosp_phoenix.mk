@@ -32,8 +32,8 @@ TARGET_USES_BLUR := true
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002/9012097 release-keys"
+    PRIVATE_BUILD_DESC="cheetah-user 13 TQ3A.230705.001.A1 10217028 release-keys"
 
-BUILD_FINGERPRINT := google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys
+BUILD_FINGERPRINT := google/cheetah/cheetah:13/TQ3A.230705.001.A1/10217028:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
