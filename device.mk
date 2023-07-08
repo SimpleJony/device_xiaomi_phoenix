@@ -465,6 +465,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     fstab.qcom \
+    fstab.zram \
     ueventd.qcom.rc
 
 # RCS
