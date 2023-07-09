@@ -250,3 +250,5 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
 # Inherit from the proprietary version
 include vendor/xiaomi/phoenix/BoardConfigVendor.mk
 
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
