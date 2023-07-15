@@ -13,9 +13,6 @@ $(call inherit-product, device/xiaomi/phoenix/device.mk)
 # Inherit some PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# MIUI Cams
-$(call inherit-product, vendor/xiaomi/miuicam/config.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_phoenix
 PRODUCT_DEVICE := phoenix
