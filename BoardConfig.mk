@@ -9,6 +9,7 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 DEVICE_PATH := device/xiaomi/phoenix
 
@@ -253,6 +254,4 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
 
 # Inherit from the proprietary version
 include vendor/xiaomi/phoenix/BoardConfigVendor.mk
-
-BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
