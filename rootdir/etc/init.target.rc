@@ -136,9 +136,6 @@ on boot
 #disable qcom qc3p5
     setprop persist.vendor.cp.support_qc3p5 0
 
-# Enable EAS
-    write /proc/sys/kernel/sched_energy_aware 1
-
 # Enable idle state listener
     write /sys/class/drm/card0/device/idle_encoder_mask 1
     write /sys/class/drm/card0/device/idle_timeout_ms 100
