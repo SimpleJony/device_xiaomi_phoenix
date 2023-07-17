@@ -477,6 +477,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RIL
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
