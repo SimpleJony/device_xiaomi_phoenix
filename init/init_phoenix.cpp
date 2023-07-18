@@ -134,4 +134,7 @@ void vendor_load_properties() {
   } else if (region == "INDIA") {
     load_props(DEVICES[1], true);
   }
+
+  // SafetyNet workaround
+    property_override("ro.boot.verifiedbootstate", "green");
 }
