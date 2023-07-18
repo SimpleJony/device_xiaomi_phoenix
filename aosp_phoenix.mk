@@ -13,6 +13,9 @@ $(call inherit-product, device/xiaomi/phoenix/device.mk)
 # Inherit some PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Import Leica Camera
+$(call inherit-product-if-exists, device/xiaomi/phoenix-miuicamera/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_phoenix
 PRODUCT_DEVICE := phoenix
