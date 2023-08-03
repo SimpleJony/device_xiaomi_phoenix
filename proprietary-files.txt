@@ -571,14 +571,41 @@ system_ext/lib/vendor.qti.hardware.camera.device@3.5.so|37507e7f0fc7a8752d461a4d
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|bce9ca5f01d5298e51fb061096dccbeb86bcebe3
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so|499e8da4a4fcf4e13a33c7bb0f5fbf4559babc12
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|b473f182647190e565276982c06634932c6d5011
-vendor/lib/camera.device@3.5-impl.so|8d671bfb73060800e758901f0a051ee4d487cae0
-vendor/lib/camera.device@1.0-impl.so|ea5e3d4cd4252cf71ec655ac1bff75e195070b29
 vendor/lib/android.hardware.camera.provider@2.4-external.so|f462728f7686cbdeaf465bd43155d227eb22b980
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so|2e21d4dc8f06b6a78f9222ed00a7fa19eadaa91c
+vendor/lib/vendor.qti.hardware.camera.device@3.5.so|5e08e29c82d9be8092e99cc17ac02028ba9e70c5
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|b89cd53233b5be22da3ed8722cce8544c948d30b
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|c7b14b561b132193ae00008a4d275700e43d0fc9
-vendor/lib64/camera.device@3.5-impl.so|c1e916dc1dc0d8011c49dcfdc550ef6f5cc90f6f
-vendor/lib64/camera.device@1.0-impl.so|872fafbb8184acc34bd8ab0e2db30e47a4f6aa3f
 vendor/lib64/android.hardware.camera.provider@2.4-external.so|4f69ea6a9e807d3c3564a64c1764e28d9c40bff9
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|543310393fa5170c481cd94f55ac65c6558d9202
+vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|0901965335f08e879df4bc5961d8533ed0d84108
+
+# MIUI Camera
+system/system/lib64/libcameraservice.so|8e1360c73e10d4866388896c916d8b95c2028a2f
+system/system/lib/libcamera_algoup_jni.xiaomi.so
+lib64/libcamera_algoup_jni.xiaomi.so
+vendor/lib/camera.device@1.0-impl.so
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/camera.device@3.3-impl.so
+vendor/lib/camera.device@3.4-external-impl.so
+vendor/lib/camera.device@3.4-impl.so
+vendor/lib/camera.device@3.5-external-impl.so
+vendor/lib/camera.device@3.5-impl.so
+vendor/lib/camera.device@3.6-external-impl.so
+vendor/lib/libcamera2ndk_vendor.so
+vendor/lib/libgui_vendor.so
+vendor/lib/vendor.qti.hardware.camera.device@2.0.so
+vendor/lib64/camera.device@1.0-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
+vendor/lib64/libcamera2ndk_vendor.so
+vendor/lib64/libgui_vendor.so
+vendor/lib64/vendor.qti.hardware.camera.device@2.0.so
 
 # Charger
 vendor/bin/hvdcp_opti
