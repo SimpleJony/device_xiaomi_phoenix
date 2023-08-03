@@ -117,9 +117,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 ro.sf.lcd_density=440
 
 # MIUI Camera
-ro.product.mod_device=phoenix_global
-vendor.camera.aux.packagelist=com.android.camera
-persist.vendor.camera.privapp.list=com.android.camera
+ro.product.mod_device=phoenix
 ro.com.google.lens.oem_camera_package=com.android.camera
 ro.miui.notch=1
 ro.hardware.camera=xiaomi
