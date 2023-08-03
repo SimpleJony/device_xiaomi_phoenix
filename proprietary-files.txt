@@ -581,8 +581,8 @@ vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|543310393fa5170c481cd94f55
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|0901965335f08e879df4bc5961d8533ed0d84108
 
 # MIUI Camera
-system/system/lib64/libcameraservice.so|8e1360c73e10d4866388896c916d8b95c2028a2f
-system/system/lib/libcamera_algoup_jni.xiaomi.so
+lib64/libcameraservice.so|8e1360c73e10d4866388896c916d8b95c2028a2f
+lib/libcamera_algoup_jni.xiaomi.so
 lib64/libcamera_algoup_jni.xiaomi.so
 vendor/lib/camera.device@1.0-impl.so
 vendor/lib/camera.device@3.2-impl.so
