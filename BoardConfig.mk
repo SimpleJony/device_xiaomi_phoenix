@@ -216,6 +216,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security
 VENDOR_SECURITY_PATCH := 2021-11-01
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
