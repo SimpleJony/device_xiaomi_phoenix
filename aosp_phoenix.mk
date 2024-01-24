@@ -22,8 +22,8 @@ TARGET_SUPPORTS_QUICK_TAP := true
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raven-user 12 SQ3A.220705.004 8836240 release-keys"
+    PRIVATE_BUILD_DESC="husky-user 14 UQ1A.240105.004 11206848 release-keys"
 
-BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.004/8836240:user/release-keys"
+BUILD_FINGERPRINT := "google/husky/husky:14/UQ1A.240105.004/11206848:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
