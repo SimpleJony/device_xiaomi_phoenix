@@ -12,8 +12,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_phoenix
 PRODUCT_DEVICE := phoenix
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi K30
+PRODUCT_BRAND := POCO
+PRODUCT_MODEL := POCO X2
 PRODUCT_MANUFACTURER := Xiaomi
 
 # PE Stuff
