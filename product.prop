@@ -96,3 +96,9 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Set stock DPI
 ro.sf.lcd_density=440
+
+# Adb debugging
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
