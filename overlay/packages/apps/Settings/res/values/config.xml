@@ -42,4 +42,7 @@
     <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/battery/charge_full</string>
     <string name="config_batteryDesignCapacity">/sys/class/power_supply/battery/charge_full_design</string>
     <string name="config_batteryChargeCycles">/sys/class/power_supply/battery/cycle_count</string>
+
+     <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 </resources>
