@@ -679,5 +679,6 @@
     <string-array name="config_deviceDisabledComponents" translatable="false">
         <item>com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver</item>
         <item>com.google.android.googlequicksearchbox/com.google.android.apps.gsa.broadcastreceiver.external.ExternalCommonBroadcastReceiver</item>
+        <item>com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.gmscorecompatstub.StubCarBluetoothReceiver</item>
     </string-array>
 </resources>
