@@ -60,11 +60,11 @@ constexpr const char *DEVICES[] = {
 };
 
 constexpr const char *BUILD_DESCRIPTION[] = {
-    "husky-user 14 UQ1A.240105.004 11206848 release-keys",
+    "husky-user 14 UQ1A.240205.004 11269751 release-keys",
 };
 
 constexpr const char *BUILD_FINGERPRINT[] = {
-    "google/husky/husky:14/UQ1A.240105.004/11206848:user/release-keys",
+    "google/husky/husky:14/UQ1A.240205.004/11269751:user/release-keys",
 };
 
 constexpr const char *CLIENT_ID[] = {
