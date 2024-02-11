@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_phoenix.mk
+    $(LOCAL_DIR)/derp_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_phoenix-user \
-    aosp_phoenix-userdebug \
-    aosp_phoenix-eng
+    derp_phoenix-user \
+    derp_phoenix-userdebug \
+    derp_phoenix-eng
 
