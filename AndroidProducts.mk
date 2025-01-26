@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_phoenix.mk
+    $(LOCAL_DIR)/miku_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_phoenix-user \
-    aosp_phoenix-userdebug \
-    aosp_phoenix-eng
+    miku_phoenix-user \
+    miku_phoenix-userdebug \
+    miku_phoenix-eng
 

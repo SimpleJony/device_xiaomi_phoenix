@@ -6,20 +6,24 @@
 
 $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
-# Inherit some common PixelExperience Stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common MikuUI Stuff.
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_phoenix
+PRODUCT_NAME := miku_phoenix
 PRODUCT_DEVICE := phoenix
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO X2
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi K30
 PRODUCT_MANUFACTURER := Xiaomi
 
-# PE Stuff
+# Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_AOSP_RECOVERY := true
+
+# Gapps
+MIKU_GAPPS := true
+
+# Maintainer
+MIKU_MASTER := SimpleJony
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
